@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.menu li :hover {
+  color: #b0adad;
+  border-bottom: 1px solid #b0adad;
+}
+
+.menu-icon {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hor-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+.column2 {
+  margin-top: 30px;
+  height: 200px;
+}
+
+.para1 {
+  text-align: justify;
+}
+
+h3 {
+  color: rgb(135, 48, 48);
+  text-align: left;
+  padding-top: 50px;
+}
+/*projects*/
+.meal-head h1{
+  margin-top: 50px;
+}
+
+.card {
+  width: 350px;
+  height: 500px;
+  box-shadow: 3px 3px 2px 2px rgb(92, 91, 91);
+}
+
+.img-card {
+  width: 100%;
+  
+}
+
+.img-card img {
+  width: 100%;
+  height: 35vh;
+}
+
+.card-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text h1 {
+  color:  rgb(142, 56, 56);;
+  padding-bottom: 5px;
+}
+
+.card-text p {
+  color: #444343;
+  padding-bottom: 5px;
+  line-height: 20px;
+}
+
+.card-text h3 {
+  color:  rgb(142, 56, 56);;
+  padding-bottom: 5px;
+}
+
+.card-text button {
+  background: none;
+  border: none;
+  background-color:  rgb(142, 56, 56);
+  letter-spacing: 1px;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+
+.card-text button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 2px rgb(28, 28, 28);
+  width: 370px;
+}
+.parent-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+}
+.card {
+  margin: 10px 5px;
+  height: 520px;
+  margin-bottom: 80px;
+}
+/*feedback card*/
+.review-card {
+  border: 2px solid #ebe7e7;
+  width: 400px;
+  height: 170px;
+  display: flex;
+  box-shadow: 3px 3px 2px 2px   rgb(142, 56, 56);;
+  margin: 10px 15px;
+}
+.client-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px  rgb(142, 56, 56);;
+  margin: 10px;
+}
+
+.client-img img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.review-text {
+  width: 100%;
+  height: 170px;
+  padding: 10px 15px;
+}
+
+.review-text h4 {
+  color: #444343;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.review-text h2 {
+  color: rgb(142, 56, 56);
+  font-size: 20px;
+}
+
+.review-text h3 {
+  color: #313946;
+  font-size: 14px;
+}
+
+.reviewcard-parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.review-card:hover {
+  cursor: pointer;
+  box-shadow:3px 3px 5px 2px rgb(92, 91, 91) ;
+}
+
+/* Contact Form */
+.contactform-container {
+  width: 100%;
+  height: 330px;
+  background-color: #222222;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.myform {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contact-head {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 28px;
+  color: rgb(142, 56, 56);;
+
+}
+
+.contact-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.myform form input {
+  outline: none;
+  border: none;
+  width: 450px;
+  margin: 3px 0px;
+  padding: 8px 10px;
+  font-size: 14px;
+
+}
+
+.myform form button {
+  width: 100px;
+  margin-top: 10px;
+  padding: 5px 0px;
+  border: none;
+  background: none;
+  background: rgb(142, 56, 56);
+  /* font-family: sans-serif; */
+  color: #fff;
+  font-weight:lighter;
+  font-size: 16px;
+  justify-content: center;
+}
+.butn{
+  justify-content: flex-end;
+}
+.myform form button:hover {
+  cursor: pointer;
+  background: #2c2c2b;
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+/*footer*/
+.footer {
+  width: 100%;
+  height: 10vh;
+  padding-left: 20px;
+  background: #222222;
+  text-align: center;
+  text-align: center;
+  flex-wrap: wrap;
+  line-height: 80px;
+  margin-top: 35px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer .footerpara {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-top: 0;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+  color: rgb(164, 63, 63);
+  font-style: oblique;
+}
+
+/*media*/
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+
+  }
+
+  .menu li {
+    margin: 0;
+    border-bottom: 1px solid #444;
+  }
+
+  .menu li a {
+    color: rgb(72, 69, 69);
+    padding: 15px;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bannerimg {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: 50vh;
+    margin: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+
+
+  }
+
+  .homeimg {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .h3 {
+    text-align: center;
+
+  }
+
+  .column2 {
+    margin-left: 10px;
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+    
+    margin-top: 200px;
+  }
+
+  .footerpara {
+    width: 90%;
+    height: 10vh;
+    padding: 0;
+    font-size: xx-small;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .myform form input {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: 115vh;
+    margin: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .review-card {
+    width: 100%;
+    height: 60vh;
+    margin:10px 15px;
+  }
+  .reviewcard-parent{
+    margin-top:10px ;
+    margin-bottom: 10px;
+  }
+}
